@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+figcaption,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'SF UI Display', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1230px;
+  padding:0 30px;
+  margin: 0 auto;
+}
