@@ -12,17 +12,6 @@
   flex-wrap: wrap;
 }
 
-.footer__logo {
-  /* color: #fff; */
-}
-
-
-
-.footer__navigation {
-  /* color: #fff; */
-}
-
-.navigation {}
 
 .navigatoin__list {
   display: flex;
@@ -62,10 +51,6 @@
 
   .footer__logo {
     margin-bottom: 33px;
-  }
-
-  .navigatoin__list {
-    /* display: block; */
   }
 
   .navigation__item:not(:last-child) {

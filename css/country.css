@@ -1,3 +1,7 @@
+.country {
+  position: relative;
+}
+
 .country__btn {
   position: relative;
   padding-right: 13px;
@@ -16,6 +20,56 @@
 
 }
 
-.country__list {
+.country__wrapper {
+  position: absolute;
   display: none;
+  top: 40px;
+  right: 0;
+  width: 184px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 16px 8px 16px 16px;
+}
+
+.country__wrapper_open {
+  display: block;
+}
+
+.country__list {
+  max-height: 102px;
+}
+
+.country__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.country__choise {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.country__track {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+  width: 4px;
+}
+
+.country__scrollbar {
+  background-color: #ececec;
+  border-radius: 2px;
+}
+
+@media (min-width: 1024px) {
+  .country__list {
+    min-height: 120px;
+  }
+
+  .country__choise {
+    font-size: 16px;
+  }
 }
