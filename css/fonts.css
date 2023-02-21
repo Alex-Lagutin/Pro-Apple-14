@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'SFUIDisplay-Thin';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/SFUIDisplay-Thin.woff2') format('woff2');
+  src: url('../fonts/SFUIDisplay-Thin.woff') format('woff2'),
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Light';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/SFUIDisplay-Light.woff2') format('woff2');
+  src: url('../fonts/SFUIDisplay-Light.woff') format('woff2'),
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Regular';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/SFUIDisplay-Regular.woff2') format('woff2');
+  src: url('../fonts/SFUIDisplay-Regular.woff') format('woff2'),
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Semibold';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/SFUIDisplay-Semibold.woff2') format('woff2');
+  src: url('../fonts/SFUIDisplay-Semibold.woff') format('woff2'),
+}

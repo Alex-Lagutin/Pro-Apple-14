@@ -1,0 +1,12 @@
+
+
+.navigatoin__list {
+  display: flex;
+  gap: 50px;
+}
+
+@media(min-width: 1024px) {
+  .navigatoin__list {
+    gap: 84px;
+  }
+}

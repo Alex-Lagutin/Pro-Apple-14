@@ -1,108 +1,14 @@
 /* @import url('normalize.css'); */
+@import url('fonts.css');
 @import url('default.css');
+@import url('header.css');
+@import url('navigation.css');
+@import url('country.css');
+@import url('banner.css');
+@import url('timer.css');
+@import url('goods.css');
+@import url('product.css');
+@import url('features.css');
 @import url('footer.css');
 
 
-.container {}
-
-.header {}
-
-.header__logo {}
-
-.header__navigation {}
-
-
-
-
-.navigation {}
-
-.navigatoin__list {}
-
-.navigation__item {}
-
-.navigation__link {}
-
-
-.header__country {}
-
-.country {}
-
-.country__btn {}
-
-.country__list {}
-
-.country__item {}
-
-.main {}
-
-
-
-.banner {}
-
-.banner__content {}
-
-.banner__title {}
-
-.banner__subtitle {}
-
-.timer {}
-
-.timer__item {}
-
-.timer__unit {}
-
-.timer__unit-description {}
-
-.bunner__button {}
-
-.goods {}
-
-.goods__tagline {}
-
-.goods__title {}
-
-.goods__block {}
-
-.goods__list {}
-
-.goods__item {}
-
-.goods__product {}
-
-.product {}
-
-.product__image-wrapper {}
-
-.product__image {}
-
-.product__info {}
-
-.product__title {}
-
-.product__price {}
-
-.product__more {}
-
-.goods__arrow {}
-
-.goods__arrov_prev {}
-
-.goods__arrov_next {}
-
-.features {}
-
-.features__tagline {}
-
-.features__title {}
-
-.features__wrapper {}
-
-.feateres__image {}
-
-.features__list {}
-
-.features__item {}
-
-.features__item-title {}
-
-.features__item-value {}
