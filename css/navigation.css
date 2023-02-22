@@ -1,8 +1,20 @@
-
-
 .navigatoin__list {
   display: flex;
   gap: 50px;
+}
+
+.navigation__link {
+  outline: transparent;
+  transition: .5s ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+
+.navigation__link:focus {
+  color: #2238FF;
+}
+
+.navigation__link:hover {
+  border-bottom: 1px solid #000;
 }
 
 @media(min-width: 1024px) {

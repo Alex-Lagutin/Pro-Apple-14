@@ -47,6 +47,20 @@
 .country__choise {
   font-size: 14px;
   font-weight: 300;
+  transition: 0.5s ease-in-out;
+  outline: transparent;
+}
+
+.country__choise:focus {
+  color: #616ee8;
+}
+
+.country__choise:hover {
+  border-bottom: 1px solid #2238FF;
+}
+
+.country__choise:active {
+  color: #2238FF;
 }
 
 .country__track {

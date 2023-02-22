@@ -29,6 +29,8 @@
   line-height: 1;
   color: #2238ff;
   padding-right: 20px;
+  outline: transparent;
+  transition: .5s ease-in-out;
 }
 
 .product__more::after {
@@ -41,6 +43,14 @@
   width: 12px;
   height: 8px;
   background: url('../image/arrow-left.svg') no-repeat center;
+}
+
+.product__more:focus {
+  color: #0017E6;
+}
+
+.product__more:hover {
+  color: #8793FF;
 }
 
 @media (min-width: 768px) {
